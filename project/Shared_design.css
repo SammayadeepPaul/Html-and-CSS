@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+main{
+    min-height: calc(100vh - 3.5rem - 3rem);
+    padding-top: 46px;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+} 
+.main_header{
+    background-color: rgb(136, 214, 71);
+    padding: 10px;
+    width: 100%;
+   /* box-sizing: border-box;*/
+    position:fixed;
+    z-index: 1;
+}
+
+.main_header img{
+    height: 22px;
+    width: 22px;
+}
+.main_header img:hover,
+.main_header img:active{
+    height: 30px;
+    width: 30px;
+}
+.main_header > div{
+    display: inline-block;
+}
+.main_header__brand{
+    text-decoration: none;
+    color: rgb(42, 70, 13);
+    font-weight: bold;
+}
+.main_navigation{
+    display: inline-block;
+    width: Calc(100% - 60px);
+    text-align: right;
+}
+.navigation_items{ 
+    margin: 0;
+    padding: 0;
+}
+.navigation_item{
+    display: inline-block;
+}
+.navigation_items a {
+    text-decoration: none;
+    color: rgb(71, 122, 16);
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.navigation_items a:hover,
+.navigation_items a:active  {
+    color: rgb(29, 51, 5);
+    border-bottom: 2px solid rgb(29, 51, 5) ;
+}
+.navigation_item--cta a{
+    color: white;
+    background-color: tomato ;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+.navigation_item--cta a:hover,
+.navigation_item--cta a:active  {
+    color: tomato;
+    border: none;
+    background-color: white;
+    
+}
+
+.main_footer {
+    background-color: black;
+    padding: 20px;
+    margin-top: 30px;
+}
+.main_footer__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.main_footer__link {
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+}
+.main_footer__link a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.main_footer__link a:hover,
+.main_footer__link a:active {
+    color: rgb(236, 236, 171);
+}
+.button{
+    background-color: rgb(29, 51, 5);
+    color: white;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px 5px;
+    font: inherit;
+    font-weight: bolder;
+    border: 1px solid  rgb(29, 51, 5);
+    cursor: pointer;
+}
+.button:hover,
+.button:active{
+    background-color: white;
+    color: rgb(29, 51, 5);
+}
+.button:focus{
+    outline: none;
+}

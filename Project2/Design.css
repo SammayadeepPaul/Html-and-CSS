@@ -1,0 +1,66 @@
+
+.main{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+   
+}
+.container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.background{
+    background: url(../Image/Mountain_forest1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+}
+.main_info{
+    margin: 0px auto;
+    width: 60%;
+    min-height: 500px;
+    max-width: 500px;
+    vertical-align: bottom;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.main_description{
+    margin-bottom: 80px;
+    
+}
+.main_button{
+  /*  position: absolute;
+    bottom: 105px;
+    left: 55px;*/
+    background-color: rgba(10, 43, 10, 0.6);
+    color: rgb(171, 206, 138);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 43, 10);
+    cursor: pointer;
+
+}
+.main_button:hover,
+.main_button:active{
+    background-color: rgba(10, 43, 10, 0.9);
+    color: white;
+}
+.main_button:focus{
+    outline: none;
+}
+.main_heading{
+    margin: 2rem;
+}
+
+/*@media(min-width:40rem){
+    .main_button{
+        bottom: 105px;
+        left: 225px;
+    }
+}*/
